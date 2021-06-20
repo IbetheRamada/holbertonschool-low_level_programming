@@ -1,13 +1,16 @@
+#include <stdio.h>
+#include <string.h>
 #include <unistd.h>
-
+#define STRING "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"
 /**
- * main - prints a text
- * 
- *  Return: Always 1 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-    write(2, "and that piece of art is useful\" -Dora Korpar, 2015-10-19\n");
-    return(1);
+	int len = strlen(STRING);
 
+	write(1, STRING, len);
+	return (1);
 }
