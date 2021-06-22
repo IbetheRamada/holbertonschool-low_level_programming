@@ -3,7 +3,8 @@
 #include <stdio.h>
 /**
  *main - assign a number to the variable n each time it is executed 
- * If the number is greater than 0, it is positive. If the number is less than 0, it is negative.
+ * If the number is greater than 0, it is positive.
+ * If the number is less than 0, it is negative.
  * equal to 0, is zero.
  * Return: (0)
  */
