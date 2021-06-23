@@ -2,27 +2,21 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - prints the last digit of n, print out wheter it is greater 
- * than 5, 0, or less than 6
- * Return: (0)
- */
+* main - the function main be  generates a random number  a validate
+*
+* Return: Always 0 (Sucess)
+*/
 int main(void)
 {
-int n;
-int lastn; 
+	int n;
 
-    srand(time(0));
-    n = rand() - RAND_MAX / 2;
-    lastn = n % 10;
-    if (lastn > 5)
-    {
-        printf("Last digit of %d is %d and is greater than 5\n", n, lastn);
-    }
-    else if (lastn == 0)
-    {
-        printf("Last digit of %d is %d and is 0\n", n, lastn);
-    }
-    else if (lastn < 6 &&  lastn != 0)
-        printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastn);
-    return(0);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
+	else
+		printf("%d is zero\n", n);
+	return (0);
 }
