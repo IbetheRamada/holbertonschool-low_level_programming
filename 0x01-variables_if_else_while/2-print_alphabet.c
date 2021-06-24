@@ -7,7 +7,12 @@
  */
 int main(void)
 {  
-	putchar('abcdefghijklmn');
-	putchar('opqrsputuvwxyz');
+	int letter=65;
+	while (letter < 91)
+	{
+		letter = letter + 1;
+		putchar(letra);
+		putchar("\n");
+	}
 	return (0);
 }
