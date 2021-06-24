@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-char main(void)
+int char(void)
 {  
 	int letter=65;
 	while (letter < 91)
