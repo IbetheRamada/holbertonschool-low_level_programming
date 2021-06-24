@@ -11,7 +11,7 @@ int main(void)
 	while (letter < 91)
 	{
 		letter = letter + 1;
-		putchar(letra);
+		putchar(letter);
 		putchar("\n");
 	}
 	return (0);
