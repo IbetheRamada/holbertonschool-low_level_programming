@@ -31,7 +31,7 @@ int main(void)
 	putchar('v');
 	putchar('w');
 	putchar('x');
-	putchar('y'):
+	putchar('y');
 	putchar('z');
 	return (0);
 }
