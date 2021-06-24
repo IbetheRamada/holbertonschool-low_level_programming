@@ -5,14 +5,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+char main(void)
 {  
 	int letter=65;
 	while (letter < 91)
 	{
 		letter = letter + 1;
 		putchar(letter);
-		putchar("\n");
 	}
 	return (0);
 }
