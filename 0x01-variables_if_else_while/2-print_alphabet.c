@@ -8,10 +8,11 @@
 int main(void)
 {  
 	char letter=96;
-	while (letter < 123)
+	while (letter < 122)
 	{
 		letter = letter + 1;
 		putchar(letter);
+		putchar('\n')
 	}
 	return (0);
 }
