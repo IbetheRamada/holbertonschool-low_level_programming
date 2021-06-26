@@ -10,7 +10,7 @@ int main(void)
 {
 	char number = 47;
 
-	while (number < 58)
+	while (number < 57)
 	{
 		number = number + 1;
 		putchar(number);
