@@ -18,8 +18,10 @@ int main(void)
 			putchar(var_1);
 			putchar(var_2);
 			if (var_1 < 56)
+			{
 			putchar(44);
 			putchar(32);
+			}
 		}
 	}
 	putchar('\n');
