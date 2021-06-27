@@ -17,7 +17,7 @@ int main(void)
 		putchar(car);
 		car++;
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
 
