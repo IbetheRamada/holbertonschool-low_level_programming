@@ -13,10 +13,11 @@ int main(void)
 	while (car < 103)
 	{
 		if (car == 58)
-		car = 96;
+		car = 97;
 		putchar(car);
 		car++;
 	}
+	putchar('\n')
 	return (0);
 }
 
