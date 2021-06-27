@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Print numbers 10 to 0 without char variable.
+ * main - Print numbers 0 to 10 without char variable.
  *
  * Return: Always (0) (Success)
  */
@@ -9,12 +9,12 @@ int main(void)
 {
 	int number;
 
-	number = 47;
+	number = 48;
 	while (number < 58)
 	{
 		putchar(number);
 		number++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
