@@ -8,16 +8,16 @@
  */
 int main(void)
 {
-	int char_1;
-	int char_2;
+	int var_1;
+	int var_2;
 
-	for (char_1 = 48; char_1 <= 56 ; char_1++)
+	for (var_1 = 48; var_1 <= 56 ; var_1++)
 	{
-		for (char_2 = char_1 + 1; char_2 <= 57; char_2++)
+		for (var_2 = var_1 + 1; var_2 <= 57; var_2++)
 		{
-			putchar(char_1);
-			putchar(char_2);
-			if (char_1 < 56)
+			putchar(var_1);
+			putchar(var_2);
+			if (var_1 < 56)
 			putchar(44);
 			putchar(32);
 		}
