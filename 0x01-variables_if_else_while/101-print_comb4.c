@@ -16,7 +16,7 @@ int main(void)
 	{
 		for (var_2 = var_1 + 1; var_2 <= 56; var_2++)
 		{
-			for(var_3 = var_2 + 1; var_3 <= 57; var_3++)
+			for (var_3 = var_2 + 1; var_3 <= 57; var_3++)
 			{
 			putchar(var_1);
 			putchar(var_2);
@@ -31,4 +31,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
