@@ -15,12 +15,12 @@ int main(void)
 
 	for (var_1 = 48; var_1 <= 57 ; var_1++)
 	{
-		for (var_2 = var_1; var_2 <= 57; var_2++)
+		for (var_2 = 48; var_2 <= 57; var_2++)
 		{
-			for (var_3 = var_2; var_3 <= 57; var_3++)
+			for (var_3 = 48; var_3 <= 57; var_3++)
 
 			{
-				for (var_4 = var_1; var_4 <= 57; var_4++)
+				for (var_4 = 49; var_4 <= 57; var_4++)
 
 				{
 				putchar(var_1);
