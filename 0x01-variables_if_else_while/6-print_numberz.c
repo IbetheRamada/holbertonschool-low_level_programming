@@ -9,8 +9,8 @@ int main(void)
 {
 	int number;
 
-	number = -1;
-	while (number < 10)
+	number = 47;
+	while (number < 58)
 	{
 		putchar("%d", number);
 		number++;
