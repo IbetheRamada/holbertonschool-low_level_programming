@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char var[] = "holberton";
+	char var[] = "Holberton";
 	int var_1;
 
 	var_1 = 0;
