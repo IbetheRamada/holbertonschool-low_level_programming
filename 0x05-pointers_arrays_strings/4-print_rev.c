@@ -14,10 +14,10 @@ void print_rev(char *s)
 	char *p[a];
 	for (y = a; y > 0; y--)
 	{
-		p [r]= s[y];
+		p[r] = s[y];
 		r++;
 	}
-	return (p'\n')
+	return (p)
 	
 	
 }
