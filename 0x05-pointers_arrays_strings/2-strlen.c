@@ -12,5 +12,5 @@ int _strlen(char *s)
 	printf("%d", longitud);	
 
 
-	return(longitud);
+	return(s);
 }
