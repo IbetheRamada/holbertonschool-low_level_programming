@@ -3,13 +3,13 @@
 #include <string.h>
 /**
 *_strlen - function to return the length of a string.
-*@s 
+*@s
 * Return: Always (longitud) (Success)
 */
 int _strlen(char *s)
 {
-	int longitud = strlen (s);
-		
+	int longitud = strlen(s);
+
 
 
 	return(longitud);
