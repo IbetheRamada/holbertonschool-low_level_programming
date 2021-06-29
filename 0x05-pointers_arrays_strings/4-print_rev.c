@@ -6,12 +6,12 @@
 *@s: variable of string
 * Return: Always (p) (Success)
 */
-void print_rev(char *s, char *p)
+void print_reverse(char *s, char *p)
 {
 	int a = strlen (s);
 	int y = 0;
 	int r = 0;
-	
+
 	for (y = a; y > 0; y--)
 	{
 		p[r] = s[y];
