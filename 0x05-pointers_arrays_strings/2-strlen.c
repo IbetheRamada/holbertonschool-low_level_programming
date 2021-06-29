@@ -12,5 +12,5 @@ int _strlen(char *s)
 
 
 
-	return(longitud);
+	return (longitud);
 }
