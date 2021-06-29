@@ -9,13 +9,11 @@
 int main(void)
 {
 	int n;
-	
-	
+	int *a[98];
 	n = 402;
 	printf("n=%d\n", n);
-	int *reset_to_98[1] = &n;
+	a[0] = &n;
 	n = 98;
 	printf("n=%d\n", n);
 	return (0);
-
 }
