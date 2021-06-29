@@ -9,7 +9,7 @@
 int main(void)
 {
 	int n;
-	int *a[1];
+	int *a[98];
 	a[0] = &n;
 	n = 402;
 	printf("n=%d\n", n);
