@@ -9,10 +9,10 @@
 int main(void)
 {
 	int n;
-	int *n[1];
+	int *a[1];
 	n = 402;
 	printf("n=%d\n", n);
-	n[0] = &n;
+	a[0] = &n;
 	n = 98;
 	printf("n=%d\n", n);
 	return (0);
