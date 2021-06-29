@@ -4,7 +4,7 @@
 /**
 *_strlen - function to return the length of a string.
 *@s 
-* Return: Always (1) (Success)
+* Return: Always () (Success)
 */
 int _strlen(char *s)
 {
@@ -12,5 +12,5 @@ int _strlen(char *s)
 	printf("%d", longitud);	
 
 
-	return(1);
+	return(longitud);
 }
