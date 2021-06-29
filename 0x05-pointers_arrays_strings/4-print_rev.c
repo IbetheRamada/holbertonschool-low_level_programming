@@ -2,17 +2,22 @@
 #include <stdio.h>
 #include <string.h>
 /**
-*
-*
-* Return: Always (0) (Success)
+*print_rev: print in reverse one string
+*@s: variable of string
+* Return: Always (p) (Success)
 */
 void print_rev(char *s)
 {
 	int a = strlen (s);
 	int y = 0;
-	for (y = a; y > 0; y++)
+	int r = 0;
+	char *p[a];
+	for (y = a; y > 0; y--)
 	{
-		printf("%c", s[y]);
+		p [r]= s[y];
+		r++;
 	}
-	putchar('\n');
+	return (p'\n')
+	
+	
 }
