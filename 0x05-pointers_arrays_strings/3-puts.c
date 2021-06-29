@@ -6,7 +6,7 @@
 *@str: variable to print a string
 * Return: Always (text) (Success)
 */
-void _puts(char *str);
+void _puts(char *str)
 {
 	char text = (str);
 	return (text);
