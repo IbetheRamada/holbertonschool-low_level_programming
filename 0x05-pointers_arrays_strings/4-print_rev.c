@@ -18,7 +18,7 @@ void print_reverse(char *s, char *p)
 		r++;
 	}
 	s = p;
-	return (p);
+	return (s);
 	
 	
 }
