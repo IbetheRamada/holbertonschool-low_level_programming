@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
-*_strlen - function to return the length of a string.
+*_puts - function to print a string.
 *@str: variable to print a string
 * Return: Always (0) (Success)
 */
