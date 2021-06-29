@@ -8,7 +8,8 @@
 
 int main(void)
 {
-	int n, a*;
+	int n;
+	int *a[1];
 	n = 402;
 	*a = &n;
 	printf("n=%d\n", n);  
