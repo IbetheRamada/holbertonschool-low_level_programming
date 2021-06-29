@@ -9,5 +9,5 @@
 int _strlen(char *s)
 {
 	int longitud = strlen (s);
-	printf("%d", longitud)	
+	printf("%d", longitud);	
 }
