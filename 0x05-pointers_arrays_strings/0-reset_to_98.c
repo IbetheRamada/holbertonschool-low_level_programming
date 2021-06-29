@@ -9,11 +9,11 @@
 int main(void)
 {
 	int n;
-	int *a[98];
 	n = 402;
-	printf("n=%d\n", n);
-	a[0] = &n;
+	int *a = &n;
+	printf("n=%d\n", n);  
 	n = 98;
+	*a = &n;
 	printf("n=%d\n", n);
 	return (0);
 }
