@@ -4,10 +4,11 @@
 /**
 *_strlen - function to return the length of a string.
 *@str: variable to print a string
-* Return: Always (text) (Success)
+* Return: Always (0) (Success)
 */
 void _puts(char *str)
 {
-	str text = (str);
-	return (text);
+	char text = (str);
+	put (text);
+	return (0);
 }
