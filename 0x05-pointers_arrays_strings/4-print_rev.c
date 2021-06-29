@@ -14,10 +14,10 @@ void print_reverse(char *s, char *p)
 
 	for (y = a; y > 0; y--)
 	{
-		p[r] = s[y];
+		*p[r] = s[y];
 		r++;
 	}
-	return (p);
+	return (*p);
 	
 	
 }
