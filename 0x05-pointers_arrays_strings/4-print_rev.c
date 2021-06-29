@@ -15,7 +15,7 @@ void _print_rev(char *s)
 
 	for (y = a; y > 0; y--)
 	{
-		p[r] = s[y];
+		p[&r] = s[&y];
 		r++;
 	}
 	s = p;
