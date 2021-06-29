@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	int n;
+	int n, a*;
 	n = 402;
-	int *a = &n;
+	*a = &n;
 	printf("n=%d\n", n);  
 	n = 98;
 	*a = &n;
