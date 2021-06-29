@@ -8,5 +8,5 @@
 */
 int _strlen(char *s)
 {
-	int longitud = strlen (*s);	
+	int longitud = strlen (s);	
 }
