@@ -4,13 +4,13 @@
 /**
 *_strlen - function to return the length of a string.
 *@s 
-* Return: Always () (Success)
+* Return: Always (longitud) (Success)
 */
 int _strlen(char *s)
 {
 	int longitud = strlen (s);
-	printf("%d", longitud);	
+		
 
 
-	return(NULL);
+	return(longitud);
 }
