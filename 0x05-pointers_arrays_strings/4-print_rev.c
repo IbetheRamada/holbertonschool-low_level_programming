@@ -17,7 +17,7 @@ void print_rev(char *s)
 		p[r] = s[y];
 		r++;
 	}
-	return (p)
+	return (p);
 	
 	
 }
