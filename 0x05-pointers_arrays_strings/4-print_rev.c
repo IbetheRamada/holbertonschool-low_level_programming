@@ -6,7 +6,7 @@
 *@s: variable of string
 * Return: Always (p) (Success)
 */
-void _print_rev(char *s)
+void print_reverse(char *s, int k)
 {
 	int a = strlen(s);
 	int y = 0;
