@@ -20,8 +20,6 @@ void print_rev(char *s)
     }
 
     
-    
-
     for (y = (cont1); y >= 0; y--)
     {
         
@@ -29,7 +27,8 @@ void print_rev(char *s)
         
         
     }
-	
+	putchar ('\n');
+
 	
 	return;
 	
