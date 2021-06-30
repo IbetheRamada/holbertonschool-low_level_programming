@@ -22,7 +22,7 @@ void print_reverse(char *s)
 	}
 	
 	
-	return (0);
+	return;
 	
 	
 }
