@@ -8,16 +8,20 @@
 */
 void print_rev(char *s)
 {
-	int a = strlen(s);
-	int y = 0;
-	
+	 int a = strlen (s);
+    
+    char *p[sizeof(a)];
+    int y = 0;
+    int r = 0;
+    
 
-	for (y = (a - 1); y >= 0; y--)
-	{
-		
-		printf("%c", *s[y]);
-		
-	}
+    for (y = (a - 1); y >= 0; y--)
+    {
+        p[r] = &s[y];
+        printf("%c", *p[r]);
+        r ++;
+        
+    }
 	
 	
 	return;
