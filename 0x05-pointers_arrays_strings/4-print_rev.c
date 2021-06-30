@@ -8,7 +8,17 @@
 */
 void print_rev(char *s)
 {
-	 int a = strlen (s);
+	int tam = 1;
+    int cont1 = 0;
+    
+    while(tam > 0){
+        if (s[cont1] == '\0')
+            break;
+        cont1 ++;
+        
+    }
+
+	 int a = cont1;
     
     char *p[sizeof(a)];
     int y = 0;
