@@ -17,7 +17,7 @@ void print_rev(char *s)
 	for (y = (a - 1); y >= 0; y--)
 	{
 		s[y];
-		printf("%c", *p[y]);
+		printf("%c", *s[y]);
 		
 	}
 	
