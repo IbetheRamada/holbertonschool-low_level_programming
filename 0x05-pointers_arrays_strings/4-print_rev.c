@@ -6,20 +6,21 @@
 *@s: variable of string
 * Return: Always (p) (Success)
 */
-void _print_rev(char *s, int p;)
+void _print_rev(char *s)
 {
-	int a = p;
+	int a = strlen(s);
 	int y = 0;
 	int r = 0;
 	
+	char *p[a];
 
-	for (y = a; y > 0; y--)
+	for (y = (a - 1); y >= 0; y--)
 	{
 		p[r] = &s[y];
 		r++;
 	}
-	s = p;
-	return (s);
+	
+	return (p);
 	
 	
 }
