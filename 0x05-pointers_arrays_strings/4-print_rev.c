@@ -12,10 +12,11 @@ void print_rev(char *s)
 	int cont1 = 0;
 	int y = 0;
 
-	while(tam > 0){
+	while (tam > 0)
+	{
 	if (s[cont1] == '\0')
 	break;
-	cont1 ++;
+	cont1++;
 	}
 
 
@@ -28,5 +29,5 @@ void print_rev(char *s)
 	}
 	putchar ('\n');
 
-	return;
+	return(0);
 }
