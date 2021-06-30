@@ -18,9 +18,9 @@ void print_rev(char *s)
         
     }
 
-	 int a = cont1;
+	int a = cont1;
     
-    char *p[sizeof(a)];
+    char *p[a];
     int y = 0;
     int r = 0;
     
