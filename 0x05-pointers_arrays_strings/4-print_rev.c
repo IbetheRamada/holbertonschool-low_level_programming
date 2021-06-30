@@ -3,13 +3,13 @@
 #include <string.h>
 /**
 *print_rev: print in reverse one string
-
 *@s: variable of string
 * Return: Always (p) (Success)
 */
+/*in this point i will print a string in reverse.*/
 void print_rev(char *s)
 {
-	/*in this point i will print a string in reverse.*/
+	
 
 	int tam = 1;
 	int cont1 = 0;
