@@ -12,7 +12,7 @@ void _print_rev(char *s)
 	int y = 0;
 	int r = 0;
 	
-	char *p[a];
+	char *p[sizeof(a)];
 
 	for (y = (a - 1); y >= 0; y--)
 	{
