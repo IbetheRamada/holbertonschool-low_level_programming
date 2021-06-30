@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
+*in this point i will print a string in reverse.
 *print_rev: print in reverse one string
 *@s: variable of string
 * Return: Always (p) (Success)
