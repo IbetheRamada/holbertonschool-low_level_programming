@@ -18,17 +18,17 @@ void print_rev(char *s)
         
     }
 
-	int a = cont1;
+	
     
     
     int y = 0;
     
     
 
-    for (y = (a - 1); y >= 0; y--)
+    for (y = (cont1); y >= 0; y--)
     {
         
-        printf("%c", *s[y]);
+        printf("%c", s[y]);
         
         
     }
