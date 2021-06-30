@@ -17,10 +17,12 @@ void print_reverse(char *s)
 	for (y = (a - 1); y >= 0; y--)
 	{
 		p[r] = &s[y];
+		printf("%c", *p[r]);
 		r++;
 	}
 	
-	return (p);
+	
+	return (0);
 	
 	
 }
