@@ -9,28 +9,24 @@
 void print_rev(char *s)
 {
 	int tam = 1;
-    int cont1 = 0;
+	int cont1 = 0;
 	int y = 0;
-    
-    while(tam > 0){
-        if (s[cont1] == '\0')
-            break;
-        cont1 ++;
-        
-    }
 
-    
-    for (y = (cont1 - 1); y >= 0; y--)
-    {
-        
-        printf("%c", s[y]);
-        
-        
-    }
+	while(tam > 0){
+	if (s[cont1] == '\0')
+	break;
+	cont1 ++;
+	}
+
+
+	for (y = (cont1 - 1); y >= 0; y--)
+	{
+
+	printf("%c", s[y]);
+
+
+	}
 	putchar ('\n');
 
-	
 	return;
-	
-	
 }
