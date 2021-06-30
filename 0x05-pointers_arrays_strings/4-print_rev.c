@@ -10,8 +10,6 @@ void print_rev(char *s)
 {
 	int a = strlen(s);
 	int y = 0;
-	int r = 0;
-	
 	
 
 	for (y = (a - 1); y >= 0; y--)
