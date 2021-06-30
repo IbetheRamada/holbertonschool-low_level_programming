@@ -12,13 +12,13 @@ void print_rev(char *s)
 	int y = 0;
 	int r = 0;
 	
-	char *p[sizeof(a)];
+	
 
 	for (y = (a - 1); y >= 0; y--)
 	{
-		p[r] = &s[y];
-		printf("%c", *p[r]);
-		r++;
+		s[y];
+		printf("%c", *p[y]);
+		
 	}
 	
 	
