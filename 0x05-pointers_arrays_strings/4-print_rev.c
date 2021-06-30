@@ -10,6 +10,7 @@ void print_rev(char *s)
 {
 	int tam = 1;
     int cont1 = 0;
+	int y = 0;
     
     while(tam > 0){
         if (s[cont1] == '\0')
@@ -18,10 +19,6 @@ void print_rev(char *s)
         
     }
 
-	
-    
-    
-    int y = 0;
     
     
 
