@@ -20,16 +20,16 @@ void print_rev(char *s)
 
 	int a = cont1;
     
-    char *p[a];
+    
     int y = 0;
-    int r = 0;
+    
     
 
     for (y = (a - 1); y >= 0; y--)
     {
-        p[r] = &s[y];
-        printf("%c", *p[r]);
-        r ++;
+        
+        printf("%c", *s[y]);
+        
         
     }
 	
