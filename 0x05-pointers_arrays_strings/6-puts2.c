@@ -1,8 +1,8 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-*rev_string - print in reverse one string
-*@s: variable of string
+*puts2 - print only very other character of a string.
+*@str: variable of string
 * Return: Always (p) (Success)
 */
 void puts2(char *str)
