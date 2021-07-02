@@ -16,8 +16,12 @@ void puts_half(char *str)
 		if(str[count] == '\0')
 		{
 			break;
-			count / 2;
-		}count++
+		}
+		count++;
 	}
-	for (a = 0; a > count; a++)
+	for (a = count / 2; a < count; a++)
+	{
+		printf("%d", str[a]);
+	}
+	putchar('\n')
 }
