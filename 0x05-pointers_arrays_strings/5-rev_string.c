@@ -13,18 +13,13 @@ void rev_string(char *s)
 
 	while (tam > 0)
 	{
-	if (s[cont1] == '\0')
-	break;
-	cont1++;
+		if(s[cont1] == '\0')
+			break;
+		cont1++;
 	}
-
-
-	for (y = (cont1 - 1); y >= 0; y--)
+	for(y = (count - 1); y >= 0; y--)
 	{
-
-	printf("%c", s[y]);
-
-
+		printf("%d", s[y]);
 	}
 	putchar ('\n');
 }
