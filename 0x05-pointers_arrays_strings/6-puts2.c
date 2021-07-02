@@ -7,10 +7,10 @@
 */
 void puts2(char *str)
 {
-	int Ste = 1;
+	int ste = 1;
 	int count1 = 0;
-	int a = 0;
-	while (count1 > 0)
+	char a = 0;
+	while (ste > 0)
 	{
 		if (str[count1] == '\0')
 			break;
@@ -20,5 +20,5 @@ void puts2(char *str)
 	{
 		printf(a);
 	}
-	putchar('\n')
+	putchar('\n');
 }
