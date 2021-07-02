@@ -9,7 +9,7 @@ void puts2(char *str)
 {
 	int ste = 1;
 	int count1 = 0;
-	char a = 0;
+	int a = 0;
 	while (ste > 0)
 	{
 		if (str[count1] == '\0')
@@ -18,7 +18,8 @@ void puts2(char *str)
 	}
 	for (a = 0; a > count1 ; a= a + 2)
 	{
-		printf(a);
+
+		printf("%d", str[a]);
 	}
 	putchar('\n');
 }
