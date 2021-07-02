@@ -19,7 +19,7 @@ void rev_string(char *s)
 	}
 	for(y = (cont1 - 1); y >= 0; y--)
 	{
-		printf("%d", s[y]);
+		printf("%c", s[y]);
 	}
 	putchar ('\n');
 }
