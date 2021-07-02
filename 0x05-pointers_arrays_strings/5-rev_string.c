@@ -17,7 +17,7 @@ void rev_string(char *s)
 			break;
 		cont1++;
 	}
-	for(y = (count1 - 1); y >= 0; y--)
+	for(y = (cont1 - 1); y >= 0; y--)
 	{
 		printf("%d", s[y]);
 	}
