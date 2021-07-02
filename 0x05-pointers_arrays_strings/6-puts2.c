@@ -1,4 +1,4 @@
-#include "hollberton.h"
+#include "holberton.h"
 #include <stdio.h>
 /**
 *rev_string - print in reverse one string
