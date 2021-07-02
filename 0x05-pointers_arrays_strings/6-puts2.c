@@ -16,7 +16,7 @@ void puts2(char *str)
 			break;
 		count1++;
 	}
-	for (a = 0; a > count1 ; a= a + 2)
+	for (a = 0; a > count1 ; a = a + 2)
 	{
 		printf("%c", str[a]);
 	}
