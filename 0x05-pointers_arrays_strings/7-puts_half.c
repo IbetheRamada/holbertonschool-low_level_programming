@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
+#include <math.h>
 /**
 *puts_half - print only very other character of a string.
 *@str: variable of string
@@ -19,7 +20,7 @@ void puts_half(char *str)
 		}
 		count++;
 	}
-	for (a = (count / 2) + 1; a < count; a++)
+	for (a = (count / 2) round(0.5); a < count; a++)
 	{
 		printf("%c", str[a]);
 	}

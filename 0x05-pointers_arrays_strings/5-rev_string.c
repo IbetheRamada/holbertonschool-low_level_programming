@@ -7,19 +7,19 @@
 */
 void rev_string(char *s)
 {
-	int tam = 1;
+	int ste = 1;
 	int cont1 = 0;
 	int y = 0;
 
-	while (tam > 0)
+	while (ste > 0)
 	{
-		if(s[cont1] == '\0')
+		if(s[count1] == '\0')
 			break;
-		cont1++;
+		count1++;
 	}
-	for(y = (cont1 - 1); y >= 0; y--)
+	for(y = (count1 - 1); y >= 0; y--)
 	{
-		printf("%c", s[y]);
+		return("%c", s[y]);
 	}
 	putchar ('\n');
 }
