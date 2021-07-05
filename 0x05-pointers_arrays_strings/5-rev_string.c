@@ -7,7 +7,7 @@
 */
 void rev_string(char *s)
 {
-	char *
+	char *a =
 	int ste = 1;
 	int cont1 = 0;
 	int y = 0;
@@ -20,7 +20,7 @@ void rev_string(char *s)
 	}
 	for(y = (cont1 - 1); y >= 0; y--)
 	{
-		return("%c", s[y]);
+		printf("%c", s[y]);
 	}
 	putchar ('\n');
 }
