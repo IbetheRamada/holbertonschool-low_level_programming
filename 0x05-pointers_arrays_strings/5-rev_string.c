@@ -11,16 +11,14 @@ void rev_string(char *s)
 	int cont1 = 0;
 	int cont2 = 0;
 	int y = 0;
-	int cortador;
 
 	while (s[cont1] != '\0')
 	{
 		cont1++;
 	}
 	cont1--;
-	cortador = (cont1 / 2);
     
-	for(y = cont1 ; y >= cortador; y--)
+	for(y = cont1 ; y >= cont2; y--)
 	{
 		a = s[y];
 		j = s[cont2];
