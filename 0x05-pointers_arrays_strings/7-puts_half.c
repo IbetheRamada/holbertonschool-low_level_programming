@@ -20,7 +20,7 @@ void puts_half(char *str)
 		}
 		count++;
 	}
-	if count > 100;
+	if (count > 100);
 		a = ceil (count / 2) + 1;
 	a = ceil (count / 2) + 1;
 
