@@ -7,9 +7,10 @@
 */
 void rev_string(char *s)
 {
-	char *a =
+	char a, j;
 	int ste = 1;
 	int cont1 = 0;
+	int cont2 = 0;
 	int y = 0;
 
 	while (ste > 0)
@@ -20,7 +21,12 @@ void rev_string(char *s)
 	}
 	for(y = (cont1 - 1); y >= 0; y--)
 	{
-		printf("%c", s[y]);
+		a = s[y];
+		j = s[cont2];
+		s[y] = j;
+		s[cont2] = a;
+		cont2 ++;
+
 	}
-	putchar ('\n');
+	
 }
