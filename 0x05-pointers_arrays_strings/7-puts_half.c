@@ -20,7 +20,7 @@ void puts_half(char *str)
 		}
 		count++;
 	}
-	for (a = round(count / 2); a < count; a++)
+	for (a = ceil(count / 2); a < count; a++)
 	{
 		
 		printf("%c", str[a]);
