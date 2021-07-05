@@ -7,27 +7,26 @@
 */
 void rev_string(char *s)
 {
-		char a, j;
-	int ste = 1;
+	char a, j;
+	char ste;
 	int cont1 = 0;
 	int cont2 = 0;
 	int y = 0;
+	int cortador;
 
-	while (ste > 0)
+	while (s[cont1] != '\0')
 	{
-		if(s[cont1] == '\0')
-			break;
 		cont1++;
 	}
-	for(y = (cont1 - 1); y >= 0; y--)
+	cont1--;
+	cortador = (cont1 / 2);
+    
+	for(y = cont1 ; y >= cortador; y--)
 	{
 		a = s[y];
 		j = s[cont2];
 		s[y] = j;
 		s[cont2] = a;
 		cont2 ++;
-
 	}
-	
-	
 }
