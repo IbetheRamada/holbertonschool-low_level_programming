@@ -17,13 +17,13 @@ void rev_string(char *s)
 		cont1++;
 	}
 	cont1--;
-    
-	for(y = cont1 ; y >= cont2; y--)
+
+	for (y = cont1 ; y >= cont2; y--)
 	{
 		a = s[y];
 		j = s[cont2];
 		s[y] = j;
 		s[cont2] = a;
-		cont2 ++;
+		cont2++;
 	}
 }
