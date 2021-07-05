@@ -20,8 +20,9 @@ void puts_half(char *str)
 		}
 		count++;
 	}
-	for (a = (count / 2) round(0.5); a < count; a++)
+	for (a = round(count / 2); a < count; a++)
 	{
+		
 		printf("%c", str[a]);
 	}
 	putchar('\n');
