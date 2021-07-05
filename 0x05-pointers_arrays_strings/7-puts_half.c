@@ -22,7 +22,7 @@ void puts_half(char *str)
 	}
 	if (count > 100)
 		a = ceil (count / 2) + 1;
-	a = ceil (count / 2) + 1;
+	a = ceil (count / 2);
 
 	for (a = a; a < count; a++)
 	{
