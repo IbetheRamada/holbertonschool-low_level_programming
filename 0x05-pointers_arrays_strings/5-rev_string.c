@@ -28,6 +28,6 @@ void rev_string(char *s)
 		cont2 ++;
 
 	}
-	return(s);
+	
 	
 }
