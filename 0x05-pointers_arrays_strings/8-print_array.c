@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-*print_array: prints a array
+*print_array : prints a array
 *@a: variable pointer
 *@n: variable int
 * Return: Always (0) (Success)
