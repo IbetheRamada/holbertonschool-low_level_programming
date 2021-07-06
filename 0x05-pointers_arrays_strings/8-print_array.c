@@ -1,10 +1,10 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-* print_array : prints arrays
-*@a: variable pointer
-*@n: variable int
-* Return: Always (0) (Success)
+*print_array : prints a arrays.
+*@a: first value to change
+*@n: second value to change
+* Return: (0)
 */
 void print_array(int *a, int n)
 {
