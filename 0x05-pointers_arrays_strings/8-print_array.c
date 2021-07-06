@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 /**
+*print_array - print elements of a array
 *@a: variable pointer
 *@n: variable int
 */
