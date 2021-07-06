@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
-*print_array: prints a arrays.
-*@a: first value to change
-*@n: second value to change
-* Return: (0)
+*print_array: prints arrays
+*@a: variable pointer
+*@n: variable int
 */
 void print_array(int *a, int n)
 {
