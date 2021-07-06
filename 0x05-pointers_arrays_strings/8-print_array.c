@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
 *print_array: prints a array
 *@a: variable pointer
