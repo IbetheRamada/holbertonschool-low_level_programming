@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-*print_array : prints a arrays.
+*print_array: prints a arrays.
 *@a: first value to change
 *@n: second value to change
 * Return: (0)
