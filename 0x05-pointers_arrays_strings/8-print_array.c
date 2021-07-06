@@ -4,7 +4,7 @@
 *print_array: prints a array
 *@a: variable pointer
 *@n: variable int
-* Return: Always (p) (Success)
+* Return: Always (0) (Success)
 */
 void print_array(int *a, int n)
 {
