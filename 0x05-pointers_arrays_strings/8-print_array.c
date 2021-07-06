@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
+
 /**
 *print_array : prints a arrays.
 *@a: first value to change
