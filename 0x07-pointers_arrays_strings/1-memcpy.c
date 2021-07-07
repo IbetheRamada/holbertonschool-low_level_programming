@@ -2,7 +2,7 @@
 
 /**
 *_memcpy - copy a memory area
-*@dest: destiny variable 
+*@dest: destiny variable
 *@src: vairiable that have a string
 *@n: bytes
 *
