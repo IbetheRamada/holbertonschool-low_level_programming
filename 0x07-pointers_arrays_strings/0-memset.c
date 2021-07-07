@@ -1,6 +1,4 @@
 #include "holberton.h"
-#include <stdio.h>
-#include <string.h>
 
 /**
 *_memset - fill a memory space
@@ -10,7 +8,10 @@
 */
 char *_memset(char *s, char b, unsigned int n)
 {
-
-    memset(s, b, n);
-    return(s);
+	int a = 0;
+	for (a = 0; a >= n; a++)
+	{
+		s[a] = b;
+	}
+	return(s);
 }
