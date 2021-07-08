@@ -1,6 +1,5 @@
 #include "holberton.h"
 #include <stdio.h>
-#include <string.h>
 /**
 *_puts_recursion - Print a string without a loop
 *
@@ -8,5 +7,10 @@
 */
 void _puts_recursion(char *s)
 {
-	puts(s);
+	if (*s == '\0')
+	{
+		return('\n');
+	}
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
