@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	char argv[0];
+	char *argv;
 	printf("%s", argv[0]);
 	return (0);
 }
