@@ -13,13 +13,14 @@ int factorial(int n)
 	{
 		return(-1);	
 	}
-	if ((a%n) == 0)
+	else if ((a%n) == 0)
 	{
 		return(1);
 	}
-	if ((a%n) > 0)
+	else if ((a%n) > 0)
 	{
 		n = n/a;
+		return(n);
 	}
 	a++;
 }
