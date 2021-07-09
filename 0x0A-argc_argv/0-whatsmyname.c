@@ -1,15 +1,12 @@
+#include "holberton.h"
 #include <stdio.h>
 /**
 *
 *
 *
 */
-int main(int argc, char *argv[])
+char main(char *argv[])
 {
-	int a = 0;
-	while (a == 0)
-	{
-	printf("%s", argv[a]);
-	}
+	printf("%s", argv[0]);
 	return (0);
 }
