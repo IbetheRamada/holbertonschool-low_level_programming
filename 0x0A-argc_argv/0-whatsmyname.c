@@ -1,9 +1,10 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-*
-*
-*
+*main - print a name of the file
+*@argc: A int argument
+*@argv: A char argument
+*Return: (0) always (success)
 */
 int main(int argc, char *argv[])
 {
