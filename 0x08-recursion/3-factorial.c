@@ -1,26 +1,20 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
+* factorial - calculate the factorial of a number
 *
-*
-*
+*@n: numbers we have to factorize
 */
 int factorial(int n)
 {
-	int a = 2;
-
-	if ((a%n) < 0)
+	if (n < 0)
 	{
 		return(-1);	
 	}
-	else if ((a%n) == 0)
+	else if (n == 0)
 	{
 		return(1);
 	}
-	else if ((a%n) > 0)
-	{
-		n = n/a;
-		return(n);
-	}
-	a++;
+	return (n * factorial(n - 1));
+
 }
