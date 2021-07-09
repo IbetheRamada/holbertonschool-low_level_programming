@@ -7,6 +7,6 @@
 int main(void)
 {
     char argv[0];
-    printf(*argv);
+    printf("%s", *argv);
     return (0);
 }
