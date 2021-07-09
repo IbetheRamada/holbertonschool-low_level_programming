@@ -5,8 +5,13 @@
 *
 *
 */
-char main(char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s", argv[0]);
+	int a = 0;
+	while (a < argc)
+	{
+		printf(" %s\n", argv[a]);
+		break;
+	}
 	return (0);
 }
