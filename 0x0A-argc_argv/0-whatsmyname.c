@@ -4,9 +4,12 @@
 *
 *
 */
-int main(void)
+int main(int argc, char *argv[])
 {
-	char *argv;
-	printf("%s", argv[0]);
+	int a = 0;
+	while (a == 0)
+	{
+	printf("%s", argv[a]);
+	}
 	return (0);
 }
