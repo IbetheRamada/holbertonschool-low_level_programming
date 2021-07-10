@@ -5,9 +5,9 @@
 *
 *
 */
-int main()
+int main(int argc,char *argv[])
 {
-	int argc = 1;
+	argv[0] = 0;
 	printf("%d\n", argc);
 	return(0);
 }
