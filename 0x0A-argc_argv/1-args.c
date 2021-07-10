@@ -5,8 +5,9 @@
 *
 *
 */
-int main(int argc)
+int main()
 {
+	int argc = 1;
 	printf("%d\n", argc);
 	return(0);
 }
