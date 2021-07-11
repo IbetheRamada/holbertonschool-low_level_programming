@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
 *main - print a
 *@argc: int argument
@@ -17,7 +18,7 @@ int main(int argc, char **argv)
 		return (1);
 	}
 
-	total =  (*argv[1] - '0')  * (*argv[2] - '0');
+	total =  atoi(argv[1]) * atoi(argv[2]);
 
 	printf("%d\n", total);
 
