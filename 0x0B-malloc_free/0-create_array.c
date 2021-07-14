@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "holberton.h"
 /**
 *create_array - create a array with a char
