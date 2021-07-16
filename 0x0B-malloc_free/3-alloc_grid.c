@@ -10,7 +10,7 @@
 int **alloc_grid(int width, int height)
 {
 	int **array = NULL;
-	unsigned int i = 0, j = 0;
+	int i = 0, j = 0;
 
 	array = malloc((height * sizeof(int)) + 1);
 
@@ -35,5 +35,5 @@ int **alloc_grid(int width, int height)
 		}
 
 	}
-	return (array);
+	return (*array);
 }
