@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-*main - print a int argc
+*main - print a
 *@argc: int argument
 *@argv: char argument
 * Return: Always (0) (success)
