@@ -1,2 +1,3 @@
 #include "holberton.h"
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept){
+}
