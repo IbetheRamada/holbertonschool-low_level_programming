@@ -1,5 +1,5 @@
 #ifndef ABS
-#define ABS
-	ABS x * -1
+#define ABS(x)
+	ABS (x * -1)
 
 #endif
