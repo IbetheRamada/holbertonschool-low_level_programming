@@ -1,2 +1,1 @@
-#define SIZE
-int a = 1024;
+#define SIZE 1024;
