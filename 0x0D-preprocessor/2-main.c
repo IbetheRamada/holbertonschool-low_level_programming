@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
-*
-*
-*
-*
+*main - function that will show the file name
+*Return: Always (0) (success)
 */
 int main(void)
 {
-	write(1,"2-main.c", 10);
-	putchar(10);
+	printf("%s\n", __FILE__);
 	return (0);
 }
