@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "function_pointer.h"
+#include "function_pointers.h"
 /**
 *
 *
@@ -8,12 +8,8 @@
 */
 void print_name(char *name, void (*f)(char *))
 {
-	unsigned int i = 0;
-
-	for (i >= 0; name[i] != '\0'; i++)
+	if (f)
 	{
-		printf("%c", name[i]);
-		
+		(*f)(name)
 	}
-	putchar(10);
 }
