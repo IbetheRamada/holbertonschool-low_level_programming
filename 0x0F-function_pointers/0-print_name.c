@@ -9,11 +9,11 @@
 void print_name(char *name, void (*f)(char *))
 {
 	unsigned int i = 0;
-	while (i => 0)
+
+	for (i >= 0; name[i] != '\0'; i++)
 	{
-		printf("%s\n", char[i])
-		i++
-		if (char[i] == '\0')
-		break;
+		printf("%c", name[i]);
+		
 	}
+	putchar(10);
 }
