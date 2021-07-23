@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "function_pointers.h"
 /**
-* int_index - 
+* int_index - function that searches for an integer
 *@size: a size of array
 *@array: a int with a array
 *@cmp: a pointer
