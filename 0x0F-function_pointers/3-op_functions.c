@@ -42,6 +42,7 @@ int op_mul(int a, int b)
  */
 int op_div(int a, int b)
 {
+	
 	return (a / b);
 }
 /**
@@ -51,7 +52,7 @@ int op_div(int a, int b)
  * @b: The second operator
  * Return: (a) (b) Always int (success)
  */
-int op_mod(int a, int b);
+int op_mod(int a, int b)
 {
 	return (a % b);
 }
