@@ -1,11 +1,10 @@
 #include <stdio.h>
-#include "variadic_functions.h"
 #include <stdarg.h>
-/*
-*
-*
-*
-*
+#include "variadic_functions.h"
+/**
+*sum_them_all - function that return a addition.
+*@n: a unsigned int
+*Return: Always (0) (success)
 */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -21,12 +20,12 @@ int sum_them_all(const unsigned int n, ...)
 		return (0);
 	}
 
-	for(a = 0; a < n; a++)
+	for (a = 0; a < n; a++)
 	{
 		number = va_arg(list, int);
 		add = add + number;
 	}
 
 	va_end(list);
-	return(add);
+	return (add);
 }
