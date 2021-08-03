@@ -4,7 +4,7 @@
 *print_listint - print all the elements of a
 * list
 *@h: a listint_h list
-*Return - Always(count) (success)
+*Return: Always(count) (success)
 */
 size_t print_listint(const listint_t *h)
 {
